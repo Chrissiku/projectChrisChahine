@@ -30,7 +30,7 @@
         required
       />
 
-      <label for="number"  id="number-label">Age:</label>
+      <label for="number" id="number-label">Age:</label>
       <input
         type="number"
         id="number"
@@ -40,6 +40,19 @@
         max="45"
         required
       />
+      <label for="dropdown">Select your country:</label>
+
+      <select name="dropdown" id="dropdown">
+        <option value="Ghana">Ghana</option>
+        <option value="Tunisia">Tunisia</option>
+        <option value="Rwanda">Rwanda</option>
+        <option value="Kenya">Kenya</option>
+      </select>
+      <p>Choose your gender:</p>
+      <input type="radio" id="male" name="gender" value="male" checked />
+      <label for="male">male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">female</label>
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
