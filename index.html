@@ -12,7 +12,7 @@
       By completing the informations below, you'll let us know more about you
     </p>
     <form id="survey-form">
-      <label for="name">Name:</label>
+      <label for="name" id="name-label">Name:</label>
       <input
         type="text"
         id="name"
@@ -21,7 +21,7 @@
         required
       />
 
-      <label for="email">Email:</label>
+      <label for="email" id="email-label">Email:</label>
       <input
         type="email"
         id="email"
@@ -30,12 +30,14 @@
         required
       />
 
-      <label for="number">Age:</label>
+      <label for="number"  id="number-label">Age:</label>
       <input
         type="number"
         id="number"
         name="number"
         placeholder="your age here"
+        min="18"
+        max="45"
         required
       />
     </form>
